@@ -1,0 +1,19 @@
+{
+  "max_message_length": 1000,
+  "enable_logging": true,
+  "log_level": "INFO",
+  "log_format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+  "storage_path": "./chat_logs",
+  "enable_message_history": true,
+  "enable_sensitive_filter": true,
+  "sensitive_words": [
+    "敏感词1",
+    "敏感词2",
+    "敏感词3"
+  ],
+  "supported_message_types": [
+    "text",
+    "image",
+    "location"
+  ]
+}
